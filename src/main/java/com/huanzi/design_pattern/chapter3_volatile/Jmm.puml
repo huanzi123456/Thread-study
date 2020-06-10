@@ -1,0 +1,18 @@
+@startuml
+title jmm
+package "cpu"{
+    package "cpu1" {
+        [cpu cache1]
+    }
+    package "cpu2" {
+        [cpu cache2]
+    }
+    [cpu cache1]-->[cpu cache]
+    [cpu cache2]-->[cpu cache]
+}
+[cpu cache] -->[MainMemory(RAM)]
+@enduml
+
+
+
+

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="0.0">java.lang.FunctionalInterface</node>
+    <node x="320.8141483516484" y="459.0">com.chao.design_pattern.chapter9_guarded_suspention.RequestClient</node>
+    <node x="274.6501373626374" y="602.0">com.chao.design_pattern.chapter9_guarded_suspention.RequestTest</node>
+    <node x="58.5" y="246.0">java.lang.Thread</node>
+    <node x="339.07129120879125" y="113.0">com.chao.design_pattern.chapter9_guarded_suspention.Request</node>
+    <node x="115.81414835164838" y="459.0">com.chao.design_pattern.chapter9_guarded_suspention.RequestServer</node>
+    <node x="49.5" y="113.0">java.lang.Runnable</node>
+    <node x="424.43928571428575" y="246.0">com.chao.design_pattern.chapter9_guarded_suspention.RequestQueue</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.chao.design_pattern.chapter9_guarded_suspention.RequestServer" target="com.chao.design_pattern.chapter9_guarded_suspention.RequestQueue">
+      <point x="66.0" y="-31.5" />
+      <point x="264.3141483516484" y="399.0" />
+      <point x="480.15357142857147" y="399.0" />
+      <point x="-22.285714285714278" y="31.5" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter9_guarded_suspention.RequestClient" target="com.chao.design_pattern.chapter9_guarded_suspention.RequestClient">
+      <point x="-41.25" y="31.5" />
+      <point x="362.0641483516484" y="542.0" />
+      <point x="300.8141483516484" y="542.0" />
+      <point x="300.8141483516484" y="490.5" />
+      <point x="-82.5" y="-0.0" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter9_guarded_suspention.Request" target="com.chao.design_pattern.chapter9_guarded_suspention.Request">
+      <point x="-44.4" y="31.5" />
+      <point x="350.1712912087913" y="196.0" />
+      <point x="319.07129120879125" y="196.0" />
+      <point x="319.07129120879125" y="144.5" />
+      <point x="-55.5" y="-0.0" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter9_guarded_suspention.RequestTest" target="java.lang.Thread">
+      <point x="-61.25" y="-31.5" />
+      <point x="286.9001373626374" y="582.0" />
+      <point x="80.5625" y="582.0" />
+      <point x="80.5625" y="439.0" />
+      <point x="103.125" y="439.0" />
+      <point x="-6.375" y="31.5" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter9_guarded_suspention.RequestServer" target="com.chao.design_pattern.chapter9_guarded_suspention.RequestServer">
+      <point x="-55.0" y="31.5" />
+      <point x="143.31414835164838" y="542.0" />
+      <point x="95.81414835164838" y="542.0" />
+      <point x="95.81414835164838" y="490.5" />
+      <point x="-82.5" y="-0.0" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter9_guarded_suspention.RequestTest" target="com.chao.design_pattern.chapter9_guarded_suspention.RequestClient">
+      <point x="12.25" y="-31.5" />
+      <point x="360.4001373626374" y="562.0" />
+      <point x="444.5641483516484" y="562.0" />
+      <point x="41.25" y="31.5" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter9_guarded_suspention.RequestClient" target="com.chao.design_pattern.chapter9_guarded_suspention.RequestQueue">
+      <point x="66.0" y="-31.5" />
+      <point x="469.3141483516484" y="419.0" />
+      <point x="524.7249999999999" y="419.0" />
+      <point x="22.28571428571422" y="31.5" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter9_guarded_suspention.RequestQueue" target="com.chao.design_pattern.chapter9_guarded_suspention.RequestQueue">
+      <point x="-66.85714285714286" y="31.5" />
+      <point x="435.5821428571429" y="329.0" />
+      <point x="404.43928571428575" y="329.0" />
+      <point x="404.43928571428575" y="277.5" />
+      <point x="-78.0" y="-0.0" />
+    </edge>
+    <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
+      <point x="0.0" y="-31.5" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter9_guarded_suspention.RequestTest" target="com.chao.design_pattern.chapter9_guarded_suspention.RequestServer">
+      <point x="-36.75" y="-31.5" />
+      <point x="311.4001373626374" y="572.0" />
+      <point x="198.31414835164838" y="572.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter9_guarded_suspention.RequestQueue" target="com.chao.design_pattern.chapter9_guarded_suspention.Request">
+      <point x="-39.0" y="-31.5" />
+      <point x="463.43928571428575" y="226.0" />
+      <point x="416.77129120879124" y="226.0" />
+      <point x="22.19999999999999" y="31.5" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter9_guarded_suspention.RequestServer" target="java.lang.Thread">
+      <point x="-66.0" y="-31.5" />
+      <point x="132.31414835164838" y="439.0" />
+      <point x="115.875" y="439.0" />
+      <point x="6.375" y="31.5" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter9_guarded_suspention.RequestClient" target="java.lang.Thread">
+      <point x="-66.0" y="-31.5" />
+      <point x="337.3141483516484" y="379.0" />
+      <point x="141.375" y="379.0" />
+      <point x="31.875" y="31.5" />
+    </edge>
+    <edge source="java.lang.Thread" target="java.lang.Thread">
+      <point x="-44.625" y="31.5" />
+      <point x="64.875" y="329.0" />
+      <point x="38.5" y="329.0" />
+      <point x="38.5" y="298.5" />
+      <point x="-51.0" y="21.0" />
+    </edge>
+    <edge source="java.lang.Thread" target="java.lang.Runnable">
+      <point x="0.0" y="-31.5" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter9_guarded_suspention.RequestTest" target="com.chao.design_pattern.chapter9_guarded_suspention.RequestQueue">
+      <point x="61.25" y="-31.5" />
+      <point x="409.4001373626374" y="582.0" />
+      <point x="533.6178571428572" y="582.0" />
+      <point x="533.6178571428572" y="439.0" />
+      <point x="569.2964285714286" y="439.0" />
+      <point x="66.85714285714289" y="31.5" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter9_guarded_suspention.RequestServer" target="com.chao.design_pattern.chapter9_guarded_suspention.Request">
+      <point x="0.0" y="-31.5" />
+      <point x="198.31414835164838" y="439.0" />
+      <point x="203.00164835164838" y="439.0" />
+      <point x="203.00164835164838" y="226.0" />
+      <point x="372.37129120879126" y="226.0" />
+      <point x="-22.19999999999999" y="31.5" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter9_guarded_suspention.RequestClient" target="com.chao.design_pattern.chapter9_guarded_suspention.Request">
+      <point x="0.0" y="-31.5" />
+      <point x="403.3141483516484" y="379.0" />
+      <point x="393.93928571428575" y="379.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8127962085308057" x="180.91253644314872" y="505.6268221574344" />
+  <SelectedNodes>
+    <node>com.chao.design_pattern.chapter9_guarded_suspention.RequestClient</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

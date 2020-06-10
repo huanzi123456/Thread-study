@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.chao.design_pattern.chapter8_FUTURE.FutureTest</OriginalElement>
+  <nodes>
+    <node x="638.6120331950207" y="480.7188796680498">com.chao.design_pattern.chapter8_FUTURE.FutureTask</node>
+    <node x="693.570366528354" y="13.718879668049794">com.chao.design_pattern.chapter8_FUTURE.FutureService</node>
+    <node x="465.3620331950207" y="342.7188796680498">com.chao.design_pattern.chapter8_FUTURE.Future</node>
+    <node x="391.445366528354" y="173.2188796680498">com.chao.design_pattern.chapter8_FUTURE.FutureTest</node>
+    <node x="569.445366528354" y="128.7188796680498">com.chao.design_pattern.chapter8_FUTURE.AsynFuture</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.chao.design_pattern.chapter8_FUTURE.FutureService" target="com.chao.design_pattern.chapter8_FUTURE.FutureTask">
+      <point x="-117.75" y="-44.0" />
+      <point x="504.6120331950207" y="322.7188796680498" />
+      <point x="460.445366528354" y="322.7188796680498" />
+      <point x="0.0" y="32.5" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter8_FUTURE.AsynFuture" target="com.chao.design_pattern.chapter8_FUTURE.AsynFuture">
+      <point x="-46.0" y="77.0" />
+      <point x="592.445366528354" y="302.7188796680498" />
+      <point x="549.445366528354" y="302.7188796680498" />
+      <point x="549.445366528354" y="205.7188796680498" />
+      <point x="-69.0" y="-0.0" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter8_FUTURE.FutureService" target="com.chao.design_pattern.chapter8_FUTURE.Future">
+      <point x="117.75" y="-44.0" />
+      <point x="348.66666666666674" y="309.0" />
+      <point x="355.11458333333337" y="309.0" />
+      <point x="355.11458333333337" y="90.0" />
+      <point x="353.12500000000006" y="90.0" />
+      <point x="0.0" y="32.5" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter8_FUTURE.FutureTest" target="com.chao.design_pattern.chapter8_FUTURE.Future">
+      <point x="51.66666666666671" y="-32.5" />
+      <point x="767.7786998616873" y="455.7188796680498" />
+      <point x="789.8620331950208" y="455.7188796680498" />
+      <point x="789.8620331950208" y="103.7188796680498" />
+      <point x="778.570366528354" y="103.7188796680498" />
+      <point x="33.99999999999999" y="32.5" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter8_FUTURE.FutureTest" target="com.chao.design_pattern.chapter8_FUTURE.FutureService">
+      <point x="-51.66666666666663" y="-32.5" />
+      <point x="664.445366528354" y="455.7188796680498" />
+      <point x="543.8620331950207" y="455.7188796680498" />
+      <point x="-78.5" y="44.0" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter8_FUTURE.AsynFuture" target="com.chao.design_pattern.chapter8_FUTURE.Future">
+      <point x="0.0" y="-77.0" />
+      <point x="638.445366528354" y="103.7188796680498" />
+      <point x="710.570366528354" y="103.7188796680498" />
+      <point x="-34.0" y="32.5" />
+    </edge>
+    <edge source="com.chao.design_pattern.chapter8_FUTURE.FutureService" target="com.chao.design_pattern.chapter8_FUTURE.AsynFuture">
+      <point x="39.25" y="-44.0" />
+      <point x="661.6120331950208" y="322.7188796680498" />
+      <point x="684.445366528354" y="322.7188796680498" />
+      <point x="46.0" y="77.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0933837429111533" x="584.5452973720608" y="306.31172199170123" />
+  <SelectedNodes>
+    <node>com.chao.design_pattern.chapter8_FUTURE.FutureTask</node>
+    <node>com.chao.design_pattern.chapter8_FUTURE.FutureService</node>
+    <node>com.chao.design_pattern.chapter8_FUTURE.Future</node>
+    <node>com.chao.design_pattern.chapter8_FUTURE.FutureTest</node>
+    <node>com.chao.design_pattern.chapter8_FUTURE.AsynFuture</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

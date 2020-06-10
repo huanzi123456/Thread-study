@@ -1,0 +1,9 @@
+@startuml
+:加载:查找二进制数据;
+partition 链接{
+:验证verifying;
+:准备preparing;
+:解析resolving;
+}
+:初始化:为类的静态变量赋予正确的初始值;
+@enduml

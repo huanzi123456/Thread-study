@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.chao.concurrency_basic.chapter2_create.tax.TaxCalculator</OriginalElement>
+  <nodes>
+    <node x="135.50000000000003" y="0.0">com.chao.concurrency_basic.chapter2_create.tax.CalculatorStrategy</node>
+    <node x="374.0" y="172.5">com.chao.concurrency_basic.chapter2_create.tax.SimpleCalculatorStrategy</node>
+    <node x="20.0" y="115.0">com.chao.concurrency_basic.chapter2_create.tax.TaxCalculator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.chao.concurrency_basic.chapter2_create.tax.TaxCalculator" target="com.chao.concurrency_basic.chapter2_create.tax.TaxCalculator">
+      <point x="0.0" y="123.0" />
+      <point x="177.0" y="381.0" />
+      <point x="0.0" y="381.0" />
+      <point x="0.0" y="238.0" />
+      <point x="-157.0" y="-0.0" />
+    </edge>
+    <edge source="com.chao.concurrency_basic.chapter2_create.tax.SimpleCalculatorStrategy" target="com.chao.concurrency_basic.chapter2_create.tax.SimpleCalculatorStrategy">
+      <point x="0.0" y="65.5" />
+      <point x="506.0" y="323.5" />
+      <point x="354.0" y="323.5" />
+      <point x="354.0" y="238.0" />
+      <point x="-132.0" y="-0.0" />
+    </edge>
+    <edge source="com.chao.concurrency_basic.chapter2_create.tax.TaxCalculator" target="com.chao.concurrency_basic.chapter2_create.tax.CalculatorStrategy">
+      <point x="78.5" y="-123.0" />
+      <point x="0.0" y="32.5" />
+    </edge>
+    <edge source="com.chao.concurrency_basic.chapter2_create.tax.SimpleCalculatorStrategy" target="com.chao.concurrency_basic.chapter2_create.tax.CalculatorStrategy">
+      <point x="0.0" y="-65.5" />
+      <point x="506.0" y="90.0" />
+      <point x="335.5" y="90.0" />
+      <point x="80.0" y="32.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="200.0" y="143.5" />
+  <SelectedNodes>
+    <node>com.chao.concurrency_basic.chapter2_create.tax.TaxCalculator</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
