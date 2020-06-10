@@ -1,0 +1,6 @@
+@startuml
+title 异步Future模式
+
+FutureService---> :桥接Future 与 FutureTask
+Future--->FutureTask: 未来的一个凭据-->调用逻辑task.get()
+@enduml
